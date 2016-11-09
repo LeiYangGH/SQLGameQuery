@@ -7,7 +7,7 @@ use[Game]
 select 
 ui.U_NAME,
 gi.T_NAME,
-v.maxrank
+v.maxrank as G_RANK
  from
 (
 select u.U_ID,
